@@ -46,6 +46,8 @@ android {
 
 dependencies {
 
+
+
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
@@ -63,6 +65,8 @@ dependencies {
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 
+    //CauchBase lite
+    implementation ("com.couchbase.lite:couchbase-lite-android-ktx:3.1.1")
 
     // Coroutines
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3")
@@ -75,4 +79,11 @@ dependencies {
 
     //coil
     implementation("io.coil-kt:coil:1.1.1")
+
+    implementation ("androidx.room:room-ktx:2.2.5")
+    implementation ("androidx.room:room-runtime:2.2.5")
+    kapt ("androidx.room:room-compiler:2.2.5")
+
+    kapt ("androidx.lifecycle:lifecycle-compiler:2.3.0-alpha06")
+    implementation ("androidx.activity:activity-ktx:1.2.0-alpha07")
 }

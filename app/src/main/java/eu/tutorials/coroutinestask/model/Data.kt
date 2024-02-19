@@ -4,6 +4,6 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 
-data class Data(val id :Int, val title:String){
+data class Data(val id :Int, val title:String)
 
-}
+
